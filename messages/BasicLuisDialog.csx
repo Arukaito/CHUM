@@ -14,6 +14,7 @@ public class BasicLuisDialog : LuisDialog<object>
     {
     }
 
+        // Agregamos comentario para aver si fucniona
     [LuisIntent("None")]
     public async Task NoneIntent(IDialogContext context, LuisResult result)
     {
